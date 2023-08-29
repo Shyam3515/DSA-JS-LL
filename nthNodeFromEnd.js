@@ -12,7 +12,7 @@
     5. Return slow pointer (kth node from the end found)
 
  * Expected Time Complexity: O(N).
-   Expected Auxiliary Space: O(1).
+   Expected Auxiliary Space: O(1). 
  */
 class Node{
     constructor(value){
@@ -76,6 +76,6 @@ myLinkedList.push(4);
 myLinkedList.push(5);
 myLinkedList.push(6);
 
-let n = 3;
+let n = 5;
 console.log(myLinkedList.nthNodeFromEnd(n));
 console.log(myLinkedList.method2(n));

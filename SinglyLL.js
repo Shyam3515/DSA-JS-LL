@@ -16,7 +16,7 @@ class LinkedList{
     //Pushing to last
     push(value){
         const newNode = new Node(value);
-        if(!this.head){
+        if(!this.head){//if head == null
             this.head = newNode;
             this.tail = newNode;
         }
